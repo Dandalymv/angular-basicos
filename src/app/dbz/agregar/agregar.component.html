@@ -1,0 +1,21 @@
+<h3>Agregar personaje</h3>
+<hr>
+
+<form (ngSubmit)="agregar()">
+    <input type="text" placeholder="Nombre" name="nombre" [(ngModel)]="nuevo.nombre" />
+    <input type="number" placeholder="Poder" name="poder" [(ngModel)]="nuevo.poder"/>
+    <button type="submit">Agregar</button>
+</form>
+<hr><br>
+
+<h3>Agregar genero musical</h3>
+<hr>
+<form (ngSubmit)="agregarGenero()">
+    <input type="text" placeholder="Genero" name="genero" [(ngModel)]="nuevoGenero.genero" />
+    <input type="number" placeholder="Anio" name="anio" [(ngModel)]="nuevoGenero.anio"/>
+    <button type="submit">Agregar</button>
+</form>
+
+<hr>
+
+
